@@ -1,0 +1,152 @@
+body {
+	background: #e1dfda;
+	font-family: cambria;
+	text-align: left;
+}
+* {
+  max-width: 5600px;
+  margin: auto;
+}
+#topp {
+	padding: 15px;
+	position: fixed;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr  1fr 1fr;
+	grid-gap: 9px; 
+	margin-bottom: 8px;
+	
+}
+
+.head {
+    left: 50px;
+    display: grid;
+    justify-content: none;
+    align-items: center;
+    text-align: center; 
+}
+
+.button{
+	border: white 10px ; 
+	color: white;
+	padding: 10px 20px;
+	transition: all .5s ease-out;
+}
+.image {
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+
+
+/*body {
+    min-width: 500px;
+}*/
+
+div {
+  border-radius: 10px;
+}
+
+#header {
+  height: 50px;
+  width: 100%;
+  background-color: #000;
+  position: relative;
+  z-index: 1;
+}
+
+#title {
+  margin-left: 3%;
+}
+
+#pic {
+	float: right;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr;
+	background-repeat: no-repeat;
+}
+	
+}
+.container {
+	background: #f0efec;
+	border: 10px #e7fdff ;
+	margin-bottom: 7px;
+}
+
+.information {
+	background: #f0efec;
+	border: 10px #e7fdff ;
+	margin-bottom: 7px;
+}
+
+.background {
+	background: #f0efec;
+	border: 10px #e7fdff;
+	margin-bottom: 7px;
+}
+
+.workshop {
+	background: #f0efec;
+	border: 10px #e7fdff;
+	margin-bottom: 7px;
+}
+.reference {
+	background: #f0efec;
+	border: 10px #e7fdff;
+	margin-bottom: 7px;
+}
+
+#me {
+	position: justify;
+	list-style: none;  
+}
+
+.left {
+  height: 1000px;
+  width: 50px;
+  background-color: #e0eeee;
+  float: left;
+  position: fixed;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+}
+
+li {
+  font-family: 'Cormorant Garamond';
+}
+
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer {
+	padding:5px;
+	background:#000;
+	margin:10px;
+	color:white;
+	font-family: sacramento;
+	text-align: left;
+	border: double 10px;
+}
+#main {
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	list-style: none;
+	width: 300px;
+	margin: auto;
+}
